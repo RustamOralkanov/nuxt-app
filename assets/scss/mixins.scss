@@ -1,0 +1,56 @@
+@mixin heading1 {
+  font-family: "DM Sans";
+  font-size: 33px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 43px;
+}
+@mixin heading2 {
+  font-family: "DM Sans";
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px;
+}
+@mixin heading3 {
+  font-family: "DM Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+@mixin heading4 {
+  font-family: "DM Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+@mixin heading5 {
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+}
+@mixin bodyLarge {
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+@mixin bodyMedium {
+  font-family: "DM Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+@mixin bodySmall {
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}

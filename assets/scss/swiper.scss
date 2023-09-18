@@ -1,0 +1,21 @@
+@import "/assets/scss/variables.scss";
+
+.hero {
+  &-swiper {
+    .swiper-pagination {
+      bottom: 24px !important;
+      &-bullet {
+        background-color: $white;
+        opacity: 1 !important;
+        transition: all 0.5s;
+        &-active {
+          background-color: unset !important;
+          border: 1px solid $white;
+          transform: scale(1.5);
+          opacity: 1 !important;
+          transition: all 0.5s;
+        }
+      }
+    }
+  }
+}

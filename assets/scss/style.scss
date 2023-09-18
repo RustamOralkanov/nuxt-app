@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "/assets/scss/fonts.scss";
+@import "/assets/scss/mixins.scss";
+@import "/assets/scss/swiper.scss";
+
+body {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 1248px;
+  margin: 0 auto;
+}

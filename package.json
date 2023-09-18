@@ -1,0 +1,26 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev --host",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@nuxtjs/tailwindcss": "^6.8.0",
+    "nuxt": "^3.7.3",
+    "sass": "^1.67.0"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.4.11",
+    "nuxt-swiper": "^1.2.2",
+    "pinia": "^2.1.6"
+  },
+  "overrides": {
+    "vue": "latest"
+  }
+}
